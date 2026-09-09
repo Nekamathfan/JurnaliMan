@@ -23,6 +23,9 @@ jobs:
         with:
           gradle-version: '8.9'
 
+      - name: Насби Android SDK
+        uses: android-actions/setup-android@v3
+
       - name: Насби қисмҳои Android SDK
         run: |
           yes | sdkmanager --licenses > /dev/null || true
