@@ -1,0 +1,5 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'tj.jurnali.man'; compileSdk 35
+    defaultConfig { applicationId 'tj.jurnali.man'; minSdk 23; targetSdk 34; versionCode 1; versionName '1.1' }
+        }
